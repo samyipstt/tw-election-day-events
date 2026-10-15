@@ -1,4 +1,11 @@
-# Upstream sources and their terms
+# Licence and attribution
+
+The compiled data in `data/` and the documentation are © 2026 Yip, Kam-lung Sam (Sam Yip), licensed under
+**Creative Commons Attribution 4.0 International (CC BY 4.0)**; the full legal code is in `LICENSE`.
+Attribution: Yip, Kam-lung Sam. 台灣投票日演出觀測 Taiwan Election-Day Events Watch — raw data.
+https://doi.org/10.5281/zenodo.23396776
+
+## Upstream sources and their terms
 
 The files in `data/` compile facts from the public sources below. Every row carries its source URL or names its source.
 

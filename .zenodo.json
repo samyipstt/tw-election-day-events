@@ -30,6 +30,12 @@
       "relation": "isSupplementTo",
       "resource_type": "other",
       "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/samyipstt/tw-election-day-events/tree/v0.3.0-draft",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset",
+      "scheme": "url"
     }
   ],
   "notes": "Edition 1: 115年地方公職人員選舉 (2026-11-28). Later elections are added as new versions under the same concept DOI. Upstream source terms: see LICENSE-CONTENT.md."
