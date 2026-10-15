@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "台灣投票日演出觀測 Taiwan Election-Day Events Watch — raw data"
+message: "If you use this dataset, please cite it using these metadata."
+type: dataset
+authors:
+  - family-names: Yip
+    given-names: "Kam-lung Sam"
+    alias: "Sam Yip"
+    orcid: "https://orcid.org/0009-0006-3813-636X"
+    website: "https://www.samyip.net"
+    affiliation: "Center for Asian Studies, Kanagawa University, Japan"
+version: "0.3.0-draft"
+license: CC-BY-4.0
+repository-code: "https://github.com/samyipstt/tw-election-day-events"
+url: "https://www.samyip.net/tw-election-day-events/"
+date-released: "2026-10-15"
+# Edition 1 = 115年地方公職人員選舉 (2026-11-28); later elections are added as new versions under the same concept DOI.
+abstract: >-
+  Raw open data on events held in Taiwan on Saturday 28 November 2026, the polling day of Taiwan's local elections and a
+  national referendum: the 14 events listed by ticketing and official pages, every organiser, co-organiser, producer and
+  sponsor credit as printed, and the credited companies' registry records (equity status, capital, directors, supervisors and
+  holdings) from Taiwan's Ministry of Economic Affairs company registry. Also included: raw event listings and dated news reports
+  for national polling days since 2016 and nearby Saturdays, and political-donation register extracts for the credited companies'
+  groups (no party labels). The release contains no analysis, classification or conclusions. Pre-publication data release.
+keywords:
+  - Taiwan
+  - elections
+  - concerts
+  - live music industry
+  - company registry
+  - open data
+  - 九合一
+  - 投票日
