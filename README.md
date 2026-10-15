@@ -1,7 +1,11 @@
 # Taiwan Election-Day Events Watch — raw data (edition 1: 2026-11-28)
 ### 台灣投票日演出觀測 — 原始資料（第一期：115年地方公職人員選舉）
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23396776.svg)](https://doi.org/10.5281/zenodo.23396776)
+
 **[中文說明 → README.zh-TW.md](README.zh-TW.md)**
+
+**Cite as:** Yip, Kam-lung Sam (2026). *台灣投票日演出觀測 Taiwan Election-Day Events Watch — raw data*. Zenodo. https://doi.org/10.5281/zenodo.23396776 (concept DOI; always resolves to the latest version).
 
 This repository is a **raw open-data release**. It contains the events listed for Taiwan's polling day on
 **Saturday 28 November 2026** (local elections and a national referendum), the companies credited for those events, and

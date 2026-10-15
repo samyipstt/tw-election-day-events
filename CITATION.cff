@@ -11,6 +11,7 @@ authors:
     affiliation: "Center for Asian Studies, Kanagawa University, Japan"
 version: "0.3.0-draft"
 license: CC-BY-4.0
+doi: "10.5281/zenodo.23396776"
 repository-code: "https://github.com/samyipstt/tw-election-day-events"
 url: "https://www.samyip.net/tw-election-day-events/"
 date-released: "2026-10-15"
