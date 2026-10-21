@@ -10,18 +10,18 @@
 
 **本資料庫不含任何分析**：沒有公司分級、事實查核、比較或結論。這些只出現在作者的網頁 <https://www.samyip.net/tw-election-day-events/>，不屬於本發布。
 
-狀態：**正式發表前的資料發布（0.3.0-draft）**。資料屬進行中的研究，將於日後論文中引用；後續版本可能更正數值，請見 `CHANGELOG.md`。
+狀態：**正式發表前的資料發布（0.4.0-draft）**。資料屬進行中的研究，將於日後論文中引用；後續版本可能更正數值，請見 `CHANGELOG.md`。
 
 ## 檔案（`data/`）
 
 | 檔案 | 筆數 | 內容 | 主要來源 |
 |---|---|---|---|
-| `events_20261128.csv` | 14 | 11/28 的演出：名稱、演出者、場館、城市、開演時間、來源頁 | 售票平台與官方頁（每場一個網址；`source_type` 為 official 或 social） |
-| `event_credits_20261128.csv` | 37 | 依頁面**原文**列出的主辦、協辦、製作與贊助，並附已確認的法人名稱與統一編號 | 同上 |
-| `entities_registry.csv` | 24 | 掛名的台灣公司及其母公司的商工登記資料：名稱、統一編號、組織型態、上市櫃、股權狀況（僑外資；空白表示登記頁未標示）、資本額、代表人、地址、日期 | 經濟部商工登記公示資料查詢（findbiz；一筆取自 GCIS 開放資料 API） |
-| `entity_holdings.csv` | 61 | 董事、監察人、經理人及其登記持股，並標示所代表的法人 | 同上 |
+| `events_20261128.csv` | 16 | 11/28 的演出：名稱、演出者、場館、城市、開演時間、來源頁 | 售票平台與官方頁（每場一個網址；`source_type` 為 official 或 social） |
+| `event_credits_20261128.csv` | 40 | 依頁面**原文**列出的主辦、協辦、製作與贊助，並附已確認的法人名稱與統一編號 | 同上 |
+| `entities_registry.csv` | 25 | 掛名的台灣公司及其母公司的商工登記資料：名稱、統一編號、組織型態、上市櫃、股權狀況（僑外資；空白表示登記頁未標示）、資本額、代表人、地址、日期 | 經濟部商工登記公示資料查詢（findbiz；一筆取自 GCIS 開放資料 API） |
+| `entity_holdings.csv` | 63 | 董事、監察人、經理人及其登記持股，並標示所代表的法人 | 同上 |
 | `polling_days.csv` | 9 | 2016 至 2026 年全國性投票日 | 中選會公告日期 |
-| `past_polling_day_listings.csv` | 420 | 歷屆投票日及其前後各 4 個週六列出的演出名稱 | 場館官網檔期（Legacy、臺北流行音樂中心、高雄流行音樂中心）、售票平台目錄、維基百科〈臺北小巨蛋演唱會列表〉 |
+| `past_polling_day_listings.csv` | 421 | 歷屆投票日及其前後各 4 個週六列出的演出名稱 | 場館官網檔期（Legacy、臺北流行音樂中心、高雄流行音樂中心）、售票平台目錄、維基百科〈臺北小巨蛋演唱會列表〉 |
 | `past_polling_day_news_reports.csv` | 95 | 上述日期的演出新聞報導（附日期） | ETtoday 影劇新聞列表（經網際網路檔案館 Wayback Machine 存檔） |
 | `past_polling_day_events_detail.csv` | 90 | 歷屆投票日的個別演出資料（場館、標示主辦、來源） | 維基百科列表、售票頁存檔、2026 年普查 |
 | `political_donations_company_records.csv` | 41 | 掛名公司所屬集團的政治獻金登錄紀錄（捐贈者、受贈者、選舉、日期、金額、紀錄編號），**不標示政黨** | 監察院政治獻金公開查閱平台 |
@@ -34,7 +34,7 @@
 - **檔期清單**：照來源原文列出名稱；不同來源的重複保留，每列為（日期、名稱、來源）。
 
 ## 引用
-Yip, Kam-lung Sam（2026）。《台灣投票日演出觀測 Taiwan Election-Day Events Watch — 原始資料，第一期》（0.3.0-draft）。DOI 見 Zenodo 紀錄。網頁：<https://www.samyip.net/tw-election-day-events/>
+Yip, Kam-lung Sam（2026）。《台灣投票日演出觀測 Taiwan Election-Day Events Watch — 原始資料，第一期》（0.4.0-draft）。DOI 見 Zenodo 紀錄。網頁：<https://www.samyip.net/tw-election-day-events/>
 
 ## 作者、研究助成與 AI 使用
 - **作者**：葉錦龍（Kam-lung Sam Yip），神奈川大學亞洲研究中心訪問研究員。ORCID [0009-0006-3813-636X](https://orcid.org/0009-0006-3813-636X)。

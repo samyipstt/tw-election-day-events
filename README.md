@@ -15,19 +15,19 @@ the credited companies' groups (no party labels). **It contains no analysis**: n
 conclusions. Those appear only on the author's web page, <https://www.samyip.net/tw-election-day-events/>, which is not
 part of this release.
 
-Status: **pre-publication data release (0.3.0-draft)**. The data are part of ongoing research and will be cited in a
+Status: **pre-publication data release (0.4.0-draft)**. The data are part of ongoing research and will be cited in a
 forthcoming paper. Values may be corrected in later versions; see `CHANGELOG.md`.
 
 ## Files (`data/`)
 
 | File | Rows | Content | Primary sources |
 |---|---|---|---|
-| `events_20261128.csv` | 14 | Events on 2026-11-28: title, artists, venue, city, start time, source page | Ticketing platforms and official pages (one URL per event; `source_type` = official / social) |
-| `event_credits_20261128.csv` | 37 | Every organiser, co-organiser, producer and sponsor credit **as printed**, with the matched legal entity and tax ID where established | The same pages |
-| `entities_registry.csv` | 24 | Registry facts for the credited Taiwan companies and their parents: legal name, tax ID, type, listing, 股權狀況 (equity status: 僑外資 = foreign / overseas-Chinese investment; blank = not marked), capital, representative, address, dates | Ministry of Economic Affairs company registry (findbiz; one record from the GCIS open-data API) |
-| `entity_holdings.csv` | 61 | Directors, supervisors, managers and their registered holdings, with the corporate holder they represent | Same registry pages |
+| `events_20261128.csv` | 16 | Events on 2026-11-28: title, artists, venue, city, start time, source page | Ticketing platforms and official pages (one URL per event; `source_type` = official / social) |
+| `event_credits_20261128.csv` | 40 | Every organiser, co-organiser, producer and sponsor credit **as printed**, with the matched legal entity and tax ID where established | The same pages |
+| `entities_registry.csv` | 25 | Registry facts for the credited Taiwan companies and their parents: legal name, tax ID, type, listing, 股權狀況 (equity status: 僑外資 = foreign / overseas-Chinese investment; blank = not marked), capital, representative, address, dates | Ministry of Economic Affairs company registry (findbiz; one record from the GCIS open-data API) |
+| `entity_holdings.csv` | 63 | Directors, supervisors, managers and their registered holdings, with the corporate holder they represent | Same registry pages |
 | `polling_days.csv` | 9 | National polling days 2016–2026 | Central Election Commission dates |
-| `past_polling_day_listings.csv` | 420 | Event titles listed on past polling days and on the four Saturdays either side | Venue calendars (Legacy, Taipei Music Center, Kaohsiung Music Center), ticketing catalogues, zh.wikipedia list of Taipei Arena concerts |
+| `past_polling_day_listings.csv` | 421 | Event titles listed on past polling days and on the four Saturdays either side | Venue calendars (Legacy, Taipei Music Center, Kaohsiung Music Center), ticketing catalogues, zh.wikipedia list of Taipei Arena concerts |
 | `past_polling_day_news_reports.csv` | 95 | Dated show reports for those days | ETtoday entertainment news lists, retrieved via the Internet Archive Wayback Machine |
 | `past_polling_day_events_detail.csv` | 90 | Per-event detail for past polling days (venue, stated organiser, source) | Wikipedia list, archived ticketing pages, 2026 census |
 | `political_donations_company_records.csv` | 41 | Political-donation register rows for companies in the credited companies' groups (donor, recipient, election, date, amount, record ID). **No party labels are given.** | Control Yuan political-donation register (ardata.cy.gov.tw) |
@@ -45,7 +45,7 @@ forthcoming paper. Values may be corrected in later versions; see `CHANGELOG.md`
 - **Listings** are titles as listed. Duplicates across sources are kept, one row per (date, title, source).
 
 ## Citation
-Yip, Kam-lung Sam (2026). *台灣投票日演出觀測 Taiwan Election-Day Events Watch — raw data, edition 1* (0.3.0-draft).
+Yip, Kam-lung Sam (2026). *台灣投票日演出觀測 Taiwan Election-Day Events Watch — raw data, edition 1* (0.4.0-draft).
 DOI: see the Zenodo record. Web page: <https://www.samyip.net/tw-election-day-events/>
 
 ## Author, funding, AI use

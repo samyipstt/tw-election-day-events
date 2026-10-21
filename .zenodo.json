@@ -1,8 +1,8 @@
 {
   "title": "台灣投票日演出觀測 Taiwan Election-Day Events Watch — raw data",
-  "version": "0.3.0-draft",
+  "version": "0.4.0-draft",
   "upload_type": "dataset",
-  "publication_date": "2026-10-15",
+  "publication_date": "2026-10-21",
   "language": "zho",
   "access_right": "open",
   "license": "cc-by-4.0",
@@ -13,7 +13,7 @@
       "affiliation": "Center for Asian Studies, Kanagawa University"
     }
   ],
-  "description": "<p><strong>Pre-publication raw data release.</strong> Raw open data on events held in Taiwan on Saturday 28 November 2026, the polling day of Taiwan's local elections and a national referendum. Contents: the 14 events listed by ticketing and official pages; every organiser, co-organiser, producer and sponsor credit as printed (37 rows); registry records for 24 credited companies and parents (equity status, capital, directors, supervisors, holdings; 61 rows) from Taiwan's company registry; the national polling days compared (9 rows); raw event listings (420 rows), dated news reports (95 rows) and per-event detail with stated organisers (90 rows) for national polling days since 2016 and nearby Saturdays; and political-donation register extracts for the credited companies' groups (41 rows, no party labels). The release contains <strong>no analysis, classification or conclusions</strong>; those appear only on the author's web page https://www.samyip.net/tw-election-day-events/.</p><p><strong>中文：</strong>台灣 2026 年 11 月 28 日投票日演出的原始公開資料：演出清單、依頁面原文的主辦／協辦／製作／贊助、掛名公司的商工登記資料（股權狀況、資本額、董監事與持股），以及 2016 年以來歷屆投票日的日期、原始檔期清單、新聞報導、個別演出資料，與政治獻金登錄摘錄（不標示政黨）。本發布不含任何分析或結論。</p><p><strong>Funding:</strong> part of the output of the Kanagawa University Center for Asian Studies FY2026 Individual Research Incentive Grant (個別奨励研究助成), <em>The Development and Transformation of Japan's Content Business in East Asia: A Comparative Area Study of Hong Kong, Taiwan, and Mainland China</em> (「東アジアにおける日本コンテンツ事業の展開と変容――香港・台湾・中国大陸を対象とした比較地域研究」) (PI: Kam-lung Sam Yip).</p><p><strong>AI use:</strong> compiled with the assistance of Anthropic's Claude models (via Claude Code); the author verifies the data against the cited sources before each version is finalised.</p><p><strong>Conflict of interest:</strong> the author has worked since 2009 as a concert promoter for Japanese and Korean artists; the author took no part in any listed event and has had no business dealings with the credited organisers or co-organisers in the past five years.</p>",
+  "description": "<p><strong>Pre-publication raw data release.</strong> Raw open data on events held in Taiwan on Saturday 28 November 2026, the polling day of Taiwan's local elections and a national referendum. Contents: the 16 events listed by ticketing and official pages; every organiser, co-organiser, producer and sponsor credit as printed (40 rows); registry records for 25 credited companies and parents (equity status, capital, directors, supervisors, holdings; 63 rows) from Taiwan's company registry; the national polling days compared (9 rows); raw event listings (421 rows), dated news reports (95 rows) and per-event detail with stated organisers (90 rows) for national polling days since 2016 and nearby Saturdays; and political-donation register extracts for the credited companies' groups (41 rows, no party labels). The release contains <strong>no analysis, classification or conclusions</strong>; those appear only on the author's web page https://www.samyip.net/tw-election-day-events/.</p><p><strong>中文：</strong>台灣 2026 年 11 月 28 日投票日演出的原始公開資料：演出清單、依頁面原文的主辦／協辦／製作／贊助、掛名公司的商工登記資料（股權狀況、資本額、董監事與持股），以及 2016 年以來歷屆投票日的日期、原始檔期清單、新聞報導、個別演出資料，與政治獻金登錄摘錄（不標示政黨）。本發布不含任何分析或結論。</p><p><strong>Funding:</strong> part of the output of the Kanagawa University Center for Asian Studies FY2026 Individual Research Incentive Grant (個別奨励研究助成), <em>The Development and Transformation of Japan's Content Business in East Asia: A Comparative Area Study of Hong Kong, Taiwan, and Mainland China</em> (「東アジアにおける日本コンテンツ事業の展開と変容――香港・台湾・中国大陸を対象とした比較地域研究」) (PI: Kam-lung Sam Yip).</p><p><strong>AI use:</strong> compiled with the assistance of Anthropic's Claude models (via Claude Code); the author verifies the data against the cited sources before each version is finalised.</p><p><strong>Conflict of interest:</strong> the author has worked since 2009 as a concert promoter for Japanese and Korean artists; the author took no part in any listed event and has had no business dealings with the credited organisers or co-organisers in the past five years.</p>",
   "keywords": [
     "Taiwan",
     "elections",
@@ -32,7 +32,7 @@
       "scheme": "url"
     },
     {
-      "identifier": "https://github.com/samyipstt/tw-election-day-events/tree/v0.3.0-draft",
+      "identifier": "https://github.com/samyipstt/tw-election-day-events/tree/v0.4.0-draft",
       "relation": "isSupplementTo",
       "resource_type": "dataset",
       "scheme": "url"

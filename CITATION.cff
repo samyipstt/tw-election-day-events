@@ -9,16 +9,16 @@ authors:
     orcid: "https://orcid.org/0009-0006-3813-636X"
     website: "https://www.samyip.net"
     affiliation: "Center for Asian Studies, Kanagawa University, Japan"
-version: "0.3.0-draft"
+version: "0.4.0-draft"
 license: CC-BY-4.0
 doi: "10.5281/zenodo.23396776"
 repository-code: "https://github.com/samyipstt/tw-election-day-events"
 url: "https://www.samyip.net/tw-election-day-events/"
-date-released: "2026-10-15"
+date-released: "2026-10-21"
 # Edition 1 = 115年地方公職人員選舉 (2026-11-28); later elections are added as new versions under the same concept DOI.
 abstract: >-
   Raw open data on events held in Taiwan on Saturday 28 November 2026, the polling day of Taiwan's local elections and a
-  national referendum: the 14 events listed by ticketing and official pages, every organiser, co-organiser, producer and
+  national referendum: the 16 events listed by ticketing and official pages, every organiser, co-organiser, producer and
   sponsor credit as printed, and the credited companies' registry records (equity status, capital, directors, supervisors and
   holdings) from Taiwan's Ministry of Economic Affairs company registry. Also included: raw event listings and dated news reports
   for national polling days since 2016 and nearby Saturdays, and political-donation register extracts for the credited companies'
